@@ -13,10 +13,13 @@ public final class CalculadoraMedia {
   /**
    * Inicializa o programa.
    */
-  private CalculadoraMedia(){
-    throw new UnsupportedOperationException("Esta é uma classe utilitária " +
-            "e não pode ser instanciada.");
+  private CalculadoraMedia() {
   }
+
+  /**
+   * Comando para execução.
+   */
+
   public static void executar() {
     Scanner scanner = new Scanner(System.in);
     boolean continuar = true;
